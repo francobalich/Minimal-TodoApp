@@ -1,9 +1,9 @@
-import { Todo } from "./Todo"
+import { Todo, Title } from "./"
 
-export const TodoList = ({Title}) => {
+export const TodoList = ({title}) => {
   return (
     <>
-    <Title Title={Title}/>
+    <Title title={title}/>
       <div className="TodoContainer">
         <Todo />
         <Todo />

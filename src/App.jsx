@@ -6,8 +6,8 @@ export const App = () => {
     <div className="App">
       <ProfileIcon />
 
-      <TodoList Title="Hoy" />
-      <TodoList Title="Mañana" />
+      <TodoList title="Hoy" />
+      <TodoList title="Mañana" />
 
       <AddButton />
     </div>
