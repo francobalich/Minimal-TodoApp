@@ -1,6 +1,7 @@
+import '../styles/Title.css'
 
-export const Title = () => {
+export const Title = ({Title}) => {
   return (
-    <h3>Title</h3>
+    <h3 className='Title'>{Title}</h3>
   )
 }
