@@ -1,15 +1,15 @@
 import './styles.css'
-import { AddButton, ProfileIcon, Title, Todo } from './TodoApp/components'
+import { AddButton, ProfileIcon, Title, Todo, TodoList } from './TodoApp/components'
 
 export const App = () => {
   return (
     <div className="App">
-      <Title Title='Hoy'/>
       <ProfileIcon />
-      <Todo />
 
-      <Title Title='Mañana'/>
-      <AddButton/>
+      <TodoList Title="Hoy" />
+      <TodoList Title="Mañana" />
+
+      <AddButton />
     </div>
   )
 }
