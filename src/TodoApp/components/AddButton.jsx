@@ -1,7 +1,10 @@
-import React from 'react'
+import addBtn from  '../assets/addBtn.svg'
+import '../styles/AddButton.css'
 
 export const AddButton = () => {
   return (
-    <div>AddButton</div>
+    <div className='addButton_container' >
+      <img className='addButton' src={addBtn} alt='Icono de mas' />
+    </div>
   )
 }
