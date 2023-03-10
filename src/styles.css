@@ -5,7 +5,15 @@
 }
 body{
   background-color: #F7F8FA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .App{
   margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;;
 }
