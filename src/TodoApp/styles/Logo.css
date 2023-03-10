@@ -1,3 +1,8 @@
+.logoContainer{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
 .logo{
     width: 60px;
     border-radius: 50%;
